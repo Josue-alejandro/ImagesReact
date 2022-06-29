@@ -1,0 +1,48 @@
+.container {
+	display: flex;
+	background-color: #222;
+	justify-content: center;
+}
+
+.center {
+	column-count: 3;
+	width: 1200px;
+}
+
+article {
+	display: inline-block;
+	width: 370px;
+	background-color: rgba(20, 20, 20, 1.0);
+	border-radius: 5px;
+	margin: 40px 10px 0px 10px;
+	cursor: pointer;
+	transition: box-shadow 0.2 ease;
+	color: white;
+}
+
+article > img {
+	width: inherit;
+	border-radius: 5px 5px 0px 0px;
+}
+
+article > p {
+	margin: 10px 15px;
+}
+
+article:hover {
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+	background-color: rgba(180, 100, 50, 1.0);
+	border: 0px;
+	padding: 1.5em 1em;
+	color: white;
+	border-radius: 0px 5px 5px 0px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+button:hover {
+	background-color: rgba(150, 80, 40, 1.0);
+}

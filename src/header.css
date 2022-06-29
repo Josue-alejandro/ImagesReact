@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+}
+
+html * {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #222;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(20, 20, 20, 1.0);
+	padding: 20px;
+	box-shadow: 1px 2px 5px rgba(30, 30, 30, 0.3);
+	z-index: 2;
+	position: relative;
+}
+
+header input {
+	outline: none;
+	padding: 20px 15px;
+	border-radius: 5px 0px 0px 5px;
+	color: white;
+	background-color: #222;
+	border: 0px;
+}
